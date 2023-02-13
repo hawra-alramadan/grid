@@ -107,9 +107,10 @@ body {
 --padding: 1rem;
  width: min(var(--max-width),100% - (var(--padding))*2);
  margin-inline: auto;
-
+ 
   font-family: var(--ff-primary);
   font-weight: var(--fw-400);
+  font-size: var(--fs-400);
   color: var(--clr-neutral-600);
   line-height: 1.45em;
 
@@ -177,4 +178,8 @@ padding: 1rem;
 
 .tesimonial{
   background-color: var(--clr-neutral-100);
+}
+
+.qoute{
+  padding: 1rem;
 }
