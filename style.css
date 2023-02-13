@@ -8,6 +8,7 @@
 
     --ff-primary: 'Open Sans', sans-serif;
     --ff-secondary: 'Sacramento', sans-serif;
+    --ff-third: "Sacramento", sans-serif;
 
    --fw-400: 500;
    --fw-700: 600;
@@ -150,6 +151,17 @@ h3 {
     height: 100%;
 }
 
+.center{
+ display: flex;
+align-items: center; 
+justify-content: center;
+font-family: var( --ff-third);
+font-size: 4.5em;
+line-height: 1em;
+text-align: center;
+padding: 1rem;
+}
+
 
 
 .testimonial-grid{
@@ -160,4 +172,9 @@ h3 {
 
     grid-template-columns: repeat(5, 1fr) ;
 
+}
+
+
+.tesimonial{
+  background-color: var(--clr-neutral-100);
 }
