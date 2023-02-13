@@ -160,10 +160,11 @@ font-family: var( --ff-third);
 font-size: 4.5em;
 line-height: 1em;
 text-align: center;
-padding: 1rem;
 }
 
-
+.padding-1{
+  padding: 1rem;
+}
 
 .testimonial-grid{
     padding-block: var(--size-400);
@@ -180,6 +181,3 @@ padding: 1rem;
   background-color: var(--clr-neutral-100);
 }
 
-.qoute{
-  padding: 1rem;
-}
