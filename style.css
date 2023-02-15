@@ -122,6 +122,10 @@ h2,
 h3 {
   font-weight: var(--fw-700);
 }
+h3{
+  font-size: var(--fs-500);
+}
+
 
 /* utility class */
 
@@ -166,6 +170,20 @@ text-align: center;
   padding: 1rem;
 }
 
+.margin-bottom-10{
+  margin-bottom: 2rem;
+}
+
+
+.btn{
+  margin: 1.6rem 0;
+    text-align: center;
+    padding: 1rem 10rem;
+    background: none;
+    border: 0.5px solid #777;
+    border-radius: 2px;
+}
+
 .testimonial-grid{
     padding-block: var(--size-400);
 
@@ -175,6 +193,7 @@ text-align: center;
     grid-template-columns: repeat(5, 1fr) ;
 
 }
+
 
 
 .tesimonial{
